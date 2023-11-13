@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler minVersion="1.7.2">
+    <ui width="820" height="380" bgColor="ffd6b8bf">
+        <tab name="main">
+            <button x="510" y="0" width="50" height="50" style="text" value="0">
+                <state name="Sine">
+                    <binding type="amp" level="tag" identifier="sine1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="16" />
+                    <binding type="amp" level="tag" identifier="sawup1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="softsquare1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="square1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="triangle1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                </state>
+                <state name="Saw Up">
+                    <binding type="amp" level="tag" identifier="sine1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="sawup1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="16" />
+                    <binding type="amp" level="tag" identifier="softsquare1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="square1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="triangle1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                </state>
+                <state name="Soft Square">
+                    <binding type="amp" level="tag" identifier="sine1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="sawup1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="softsquare1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="16" />
+                    <binding type="amp" level="tag" identifier="square1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="triangle1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                </state>
+                <state name="Square">
+                    <binding type="amp" level="tag" identifier="sine1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="sawup1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="softsquare1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="square1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="16" />
+                    <binding type="amp" level="tag" identifier="triangle1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                </state>
+                <state name="Triangle">
+                    <binding type="amp" level="tag" identifier="sine1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="sawup1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="softsquare1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="square1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="triangle1" parameter="AMP_VOLUME" translation="fixed_value" translationValue="16" />
+                </state>
+            </button>
+            <labeled-knob x="560" y="0" width="60" type="float" label="Shape 1 Attack." minValue="0.0" maxValue="10.0" value="0.5">
+                <binding type="amp" level="tag" identifier="shape1" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0.0" translationOutputMax="10.0" />
+            </labeled-knob>
+            <labeled-knob x="610" y="0" width="60" type="float" label="Shape 1 Decay." minValue="0.0" maxValue="25.0" value="5.0">
+                <binding type="amp" level="tag" identifier="shape1" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.0" translationOutputMax="25.0" />
+            </labeled-knob>
+            <labeled-knob x="660" y="0" width="60" type="float" label="Shape 1 Sustain." minValue="0.0" maxValue="1.0" value="0.5">
+                <binding type="amp" level="tag" identifier="shape1" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0.0" translationOutputMax="1.0" />
+            </labeled-knob>
+            <labeled-knob x="710" y="0" width="60" type="float" label="Shape 1 Release." minValue="0.0" maxValue="25.0" value="2.5">
+                <binding type="amp" level="tag" identifier="shape1" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.0" translationOutputMax="25.0" />
+            </labeled-knob>
+            <labeled-knob x="760" y="0" width="60" type="float" label="Shape 1 Volume." minValue="0" maxValue="10" value="5">
+                <binding type="amp" level="tag" identifier="shape1" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0.0" translationOutputMax="0.25" />
+            </labeled-knob>
+            <button x="510" y="60" width="50" height="50" style="text" value="2">
+                <state name="Sine">
+                    <binding type="amp" level="tag" identifier="sine2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="16" />
+                    <binding type="amp" level="tag" identifier="sawup2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="softsquare2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="square2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="triangle2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                </state>
+                <state name="Saw Up">
+                    <binding type="amp" level="tag" identifier="sine2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="sawup2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="16" />
+                    <binding type="amp" level="tag" identifier="softsquare2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="square2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="triangle2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                </state>
+                <state name="Soft Square">
+                    <binding type="amp" level="tag" identifier="sine2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="sawup2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="softsquare2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="16" />
+                    <binding type="amp" level="tag" identifier="square2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="triangle2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                </state>
+                <state name="Square">
+                    <binding type="amp" level="tag" identifier="sine2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="sawup2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="softsquare2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="square2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="16" />
+                    <binding type="amp" level="tag" identifier="triangle2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                </state>
+                <state name="Triangle">
+                    <binding type="amp" level="tag" identifier="sine2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="sawup2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="softsquare2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="square2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0" />
+                    <binding type="amp" level="tag" identifier="triangle2" parameter="AMP_VOLUME" translation="fixed_value" translationValue="16" />
+                </state>
+            </button>
+            <labeled-knob x="560" y="60" width="60" type="float" label="Shape 2 Attack." minValue="0.0" maxValue="10.0" value="0.5">
+                <binding type="amp" level="tag" identifier="shape2" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0.0" translationOutputMax="10.0" />
+            </labeled-knob>
+            <labeled-knob x="610" y="60" width="60" type="float" label="Shape 2 Decay." minValue="0.0" maxValue="25.0" value="5.0">
+                <binding type="amp" level="tag" identifier="shape2" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.0" translationOutputMax="25.0" />
+            </labeled-knob>
+            <labeled-knob x="660" y="60" width="60" type="float" label="Shape 2 Sustain." minValue="0.0" maxValue="1.0" value="0.5">
+                <binding type="amp" level="tag" identifier="shape2" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0.0" translationOutputMax="1.0" />
+            </labeled-knob>
+            <labeled-knob x="710" y="60" width="60" type="float" label="Shape 2 Release." minValue="0.0" maxValue="25.0" value="2.5">
+                <binding type="amp" level="tag" identifier="shape2" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.0" translationOutputMax="25.0" />
+            </labeled-knob>
+            <labeled-knob x="760" y="60" width="60" type="float" label="Shape 2 Volume." minValue="0" maxValue="10" value="5">
+                <binding type="amp" level="tag" identifier="shape2" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0.0" translationOutputMax="0.25" />
+            </labeled-knob>
+        </tab>
+    </ui>
+    <groups>
+        <group enabled="true" tags="shape1">
+            <sample path="SawUp.wav" tags="sawup1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="SawDown.wav" tags="sawdown1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Sine.wav" tags="sine1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="SoftSquare.wav" tags="softsquare1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Square.wav" tags="square1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Triangle.wav" tags="triangle1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+        </group>
+        <group enabled="true" tags="shape2">
+            <sample path="SawUp.wav" tags="sawup2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="SawDown.wav" tags="sawdown2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Sine.wav" tags="sine2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="SoftSquare.wav" tags="softsquare2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Square.wav" tags="square2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Triangle.wav" tags="triangle2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+        </group>
+    </groups>
+</DecentSampler>
