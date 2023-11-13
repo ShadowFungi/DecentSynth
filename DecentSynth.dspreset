@@ -106,24 +106,33 @@
             <labeled-knob x="760" y="60" width="60" type="float" label="Shape 2 Volume." minValue="0" maxValue="10" value="5">
                 <binding type="amp" level="tag" identifier="shape2" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0.0" translationOutputMax="0.25" />
             </labeled-knob>
+            <labeled-knob x="10" y="60" width="60" label="Delay Wet/Dry" minValue="0.0" maxValue="1.0" value="0.25">
+                <binding type="effect" level="tag" identifier="mdelay1" parameter="FX_WET_LEVEL" translationOutputMin="0.0" translationOutputMax="1.0" />
+            </labeled-knob>
+            <labeled-knob width="60" x="60" y="60" type="float" label="Delay Time." minValue="0.0" maxValue="1.0" value="0.25">
+                <binding type="effect" level="tag" identifier="mdelay1" parameter="FX_DELAY_TIME" translationOutputMin="0.0" translationOutputMax="1.0" />
+            </labeled-knob>
         </tab>
     </ui>
     <groups>
         <group enabled="true" tags="shape1">
-            <sample path="SawUp.wav" tags="sawup1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
-            <sample path="SawDown.wav" tags="sawdown1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
-            <sample path="Sine.wav" tags="sine1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
-            <sample path="SoftSquare.wav" tags="softsquare1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
-            <sample path="Square.wav" tags="square1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
-            <sample path="Triangle.wav" tags="triangle1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/SawUp.wav" tags="sawup1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/SawDown.wav" tags="sawdown1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/Sine.wav" tags="sine1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/SoftSquare.wav" tags="softsquare1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/Square.wav" tags="square1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/Triangle.wav" tags="triangle1" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <effects>
+                <effect type="delay" tags="mdelay1" />
+            </effects>
         </group>
         <group enabled="true" tags="shape2">
-            <sample path="SawUp.wav" tags="sawup2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
-            <sample path="SawDown.wav" tags="sawdown2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
-            <sample path="Sine.wav" tags="sine2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
-            <sample path="SoftSquare.wav" tags="softsquare2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
-            <sample path="Square.wav" tags="square2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
-            <sample path="Triangle.wav" tags="triangle2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/SawUp.wav" tags="sawup2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/SawDown.wav" tags="sawdown2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/Sine.wav" tags="sine2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/SoftSquare.wav" tags="softsquare2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/Square.wav" tags="square2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
+            <sample path="Samples/Triangle.wav" tags="triangle2" loNote="24" hiNote="96" rootNote="72" loopEnabled="true" />
         </group>
     </groups>
 </DecentSampler>
